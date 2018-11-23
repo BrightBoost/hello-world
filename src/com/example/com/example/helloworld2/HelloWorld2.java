@@ -1,7 +1,10 @@
 package com.example.com.example.helloworld2;
 
-
 import com.example.helloworld.*;
+import com.sun.deploy.util.ArrayUtil;
+import org.apache.commons.lang.ArrayUtils;
+
+import java.util.Arrays;
 
 public class HelloWorld2 {
     public static void main(String[] args)
@@ -31,7 +34,21 @@ public class HelloWorld2 {
        String[] array = {"first element", "second", "third"};
        //car.setDoors(husamDoors);
        // System.out.println("doors closed?:" + car.checkDoorsClosed());
-        System.out.println("array element: " + array[1]);
+       // System.out.println("array element: " + array[1]);
+
+        //array. = .removeElement(array, 1);
+
+        int number = 10;
+        int max = 12;
+
+        do {
+            System.out.println("do: " + number);
+            number = number + 1;
+        }
+        while(number < max) ;
+
+        System.out.println("while: " + number);
+        System.out.println("while max: " + max);
 
 
 
