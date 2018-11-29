@@ -3,6 +3,20 @@ package com.example.com.example.helloworld2;
 import com.example.helloworld.Human;
 
 public class Car {
+    Car(int speed){
+        this.speed = speed;
+
+    }
+
+    Car(String carcolor, int speed)
+    {
+        color = carcolor;
+    }
+
+    Car(String carcolor){
+        color = carcolor;
+    }
+
     private String color;
     private String model;
     private int speed;
@@ -11,6 +25,10 @@ public class Car {
     private int maxSpeed;
     private String[] doors;
 
+    public Boolean getAccess()
+    {
+        return true;
+    }
     public Boolean getEngineStatus() {
         return engineStatus;
     }

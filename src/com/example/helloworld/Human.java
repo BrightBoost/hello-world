@@ -1,10 +1,32 @@
 package com.example.helloworld;
 
 public class Human {
+
+    Human(){
+
+    }
+
+    Human(String name, int age){
+        this.name = name;
+    }
+
+    Human(int age, String bsnHuman) {
+
+    }
+
+    Human(String nameHuman, int ageHuman, String bsnHuman){
+        this.name = nameHuman;
+        this.age = ageHuman;
+        this.bsn = bsnHuman;
+    }
     private String name;
     private int age;
     private String bsn;
 
+    public boolean getAccess()
+    {
+        return true;
+    }
     public String getName() {
         return name;
     }

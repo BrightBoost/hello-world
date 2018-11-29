@@ -2,24 +2,13 @@ package com.example.helloworld;
 
 public class HelloWorld {
 
-    public static void main(String[]args)
-    {
-        Human husam = new Human();
-        husam.setName("Husam");
-        husam.setAge(30);
-        husam.setBsn("124");
+    public static void main(String[] args) {
 
-        Car car = new Car();
-        car.setColor("Red");
-        car.setModel("");
-        car.setOwner(husam);
+        Square s = new Square();
+        s.length1 = 4;
+        s.length2 = 4;
 
-        System.out.println("The car owner:" + car.getOwner().getName() );
+        System.out.println(s.calcCircumference(4));
+        System.out.println(s.calcCircumference(4, 4));
     }
-
-    public void createSomething()
-    {
-
-    }
-
 }
