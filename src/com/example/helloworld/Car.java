@@ -43,5 +43,6 @@ public class Car {
     private int id;
     //nog een hoop nieuwe dingen die nergens op slaan
     //maar dat komt later wel
+
 }
 
