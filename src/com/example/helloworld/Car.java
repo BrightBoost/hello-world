@@ -37,5 +37,7 @@ public class Car {
     public void setOwner(Human owner) {
         this.owner = owner;
     }
+
+    private int id;
 }
 
